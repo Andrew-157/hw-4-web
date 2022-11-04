@@ -83,6 +83,3 @@ def client_code(name):
 
     for file in files:
         Thread(target=file).start()
-
-
-client_code("C:\\Users\\Андрей\\Desktop\\3")
